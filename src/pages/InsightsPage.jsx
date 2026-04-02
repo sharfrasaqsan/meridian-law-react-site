@@ -230,7 +230,8 @@ function ArticleView() {
                 return <h3 key={i}>{line.replace('### ', '')}</h3>
               }
               if (line.startsWith('- ')) {
-                const isListStart = i === 0 || !article.content.split('\n')[i-1].startsWith('- ')
+                // List item
+
                 return (
                   <li key={i} className="flex items-start gap-3 mb-2">
                     <span className="w-1.5 h-1.5 bg-gold-500 rounded-full mt-2.5 shrink-0" />
