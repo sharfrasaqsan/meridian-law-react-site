@@ -1,0 +1,38 @@
+export const caseStudies = [
+  {
+    id: 'fintech-series-a',
+    title: 'Series A Funding for a London Fintech Platform',
+    category: 'Venture Finance',
+    problem: 'A London-based fintech company with 24 months of trading received a £5M Series A term sheet but had incomplete cap table records, missing IP assignments from early freelancers, and needed to restructure its Articles of Association before closing.',
+    solution: 'We conducted an intensive legal audit, regularized the cap table via Companies House, obtained retrospective IP assignments, and drafted a new Shareholders\' Agreement aligned with institutional investor requirements under English Law.',
+    outcome: 'The £5M round closed in 40 days. The lead VC commented on the exceptional quality of the legal data room, which significantly accelerated their technical and legal due diligence process.',
+    stats: { raised: '£5.0M', timeline: '40 days', satisfaction: '100%' },
+  },
+  {
+    id: 'saas-ip-protection',
+    title: 'IP Portfolio Strategy for a Cambridge AI Scale-up',
+    category: 'IP & Strategy',
+    problem: 'An AI scale-up in Cambridge had developed a unique machine learning model but lacked a formal IP strategy. Several core engineers were on verbal agreements without written IP assignments, posing a massive risk for future valuation.',
+    solution: 'We implemented a comprehensive IP protection program: securing written assignments for all past and present code, establishing trade secret protocols, and registering trademarks in the UK, EU, and US markets.',
+    outcome: 'The IP portfolio was valued at £15M during their most recent valuation. The company avoided a potentially catastrophic IP dispute during a subsequent merger discussion.',
+    stats: { ipValue: '£15M', filings: '12', risk: 'Mitigated' },
+  },
+  {
+    id: 'healthtech-compliance',
+    title: 'GDPR Compliance for a Health-Tech Launch',
+    category: 'Compliance',
+    problem: 'A digital health platform processing sensitive patient data across the UK was expanding into the EU. They lacked a UK GDPR framework and faced a hard deadline for a strategic partnership with a major NHS trust network.',
+    solution: 'We deployed a dedicated compliance team to map data flows, draft Data Processing Agreements with vendors, and create a user-centric Consent Management System. We also liaised with the NHS trust\'s legal counsel to ensure alignment.',
+    outcome: 'Launched seamlessly with full UK GDPR compliance. The NHS partnership was secured on time, with the trust\'s legal team praising the "gold-standard" documentation.',
+    stats: { launch: 'On time', markets: 'UK & EU', status: 'Compliant' },
+  },
+  {
+    id: 'ecommerce-contracts',
+    title: 'Contract Framework for a Manchester Marketplace',
+    category: 'Commercial Law',
+    problem: 'A Manchestermarketplace connecting 3,000+ UK sellers had an outdated Terms of Use. Buyer-seller disputes were escalating, and the existing framework provided no clear resolution mechanism or indemnity boundaries.',
+    solution: 'We redesigned their entire contractual framework: separate Seller T&Cs with staggered liability, a modern Buyer Policy with clear dispute resolution, and an escrow addendum. All drafted under English Law.',
+    outcome: 'Disputes dropped by 55% in the first quarter post-implementation. The marketplace was also able to successfully onboard international sellers for the first time thanks to the clear legal boundaries.',
+    stats: { disputes: '-55%', revenue: '+40%', sellers: '3,000+' },
+  },
+]
